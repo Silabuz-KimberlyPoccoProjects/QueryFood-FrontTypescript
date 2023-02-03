@@ -1,7 +1,7 @@
 import React from 'react'
 import Menu from "../sections/headingPages/Menu";
 
-function Order() {
+function Restaurantes() {
   return (
     
     <>
@@ -11,4 +11,4 @@ function Order() {
     </>
   );
 }
-export default Order;
+export default Restaurantes;
