@@ -7,7 +7,6 @@ function FormLogin(){
    <>
    <body>
      <div className="reservation-form">
-       <div className="">
          <h2 className="">Login Form</h2>
          <form>
            <div className="reservation-form">
@@ -19,18 +18,18 @@ function FormLogin(){
              <label htmlFor="exampleInputPassword1" className="form-label">Password: </label>
              <input type="password" className="form-control border border-primary" id="exampleInputPassword1"></input>
            </div>
-           <p className="small"><a className="text-primary" href="forget-password.html">Forgot password?</a></p>
+           <p className="small"><a className="text-primary" href="#forgotpassword">Forgot password?</a></p>
            <div className="d-grid">
-             <button className="redirect-button:hover" type="submit">Login</button>
+            <button
+                  className="action-button"
+                  // onClick={ handleLogin }
+            >Login
+            </button>
            </div>
-         </form>
-         <div className="mt-3">
-           <p className="mb-0  text-center">Don't have an account? <a href="signup.html"
-             className="text-primary fw-bold">Sign
-             Up</a></p>
-         </div>
-       </div>
-     </div>
+         </form> 
+          
+
+      </div>
    </body>
 </>
 
