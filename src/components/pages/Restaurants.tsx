@@ -1,3 +1,4 @@
+import React from 'react'
 import Menu from "../sections/headingPages/Menu";
 
 function Order() {

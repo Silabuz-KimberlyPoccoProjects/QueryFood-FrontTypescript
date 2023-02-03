@@ -1,3 +1,4 @@
+import React from 'react'
 import Abouts from "../sections/headingPages/About";
 import Testimonials from "../sections/headingPages/Testimonials";
 
